@@ -16,10 +16,10 @@ useEffect(() => {
     <figure className="movieImage">
         <img src={movie.Poster} className="movielogo"/>
     </figure>
-    <h2  id= '#tickets' className="moviePrice">MoviePrice</h2>
-    <h4 className="name">MovieName</h4>
-    <h4 className="Year">Year</h4>
-    <h4 className="imdb">IMDB</h4>
+    <h2  id= '#tickets' className="moviePrice">{movie.Price}</h2>
+    <h4 className="name">{movie.Name}</h4>
+    <h4 className="Year">{movie.Year}</h4>
+    <h4 className="imdb">{movie.IMDB}</h4>
    </div>)
         </div>
   
