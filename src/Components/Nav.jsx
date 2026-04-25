@@ -9,7 +9,7 @@ export default function Nav() {
         <figure className="movie">
             <img src={image} alt=""className="navlogo"/>
         </figure>
-        <ul class="nav__lists">
+        <ul className="nav__lists">
             <li className="nav__list"><a href="">Home</a></li>
            <li className="nav__list"><a href="#movies">Movies</a></li>
            <li className="nav__list"> <a href="#price">Tickets</a></li>
